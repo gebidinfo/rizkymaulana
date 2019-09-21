@@ -1,0 +1,42 @@
+﻿loop = 1
+pil=0
+
+while loop == 1 :
+        print ""
+        print ""
+        print ""
+        print "Selamat Datang Di Program Kalkulator"
+        print ""
+        print "1) Penjumlahan"
+        print "2) Pengurangan"
+        print "3) Perkalian"
+        print "4) Pembagian"
+        print "5) Keluar"
+        print ""
+       
+        pil = input("Masukkan Pilihan Anda : ")
+        print ""
+       
+        if pil == 1:
+                jumlah1 = input("Nilai 1 = ")
+                jumlah2 = input("Nilai 2 = ")
+                print jumlah1, " + ", jumlah2," = ",jumlah1+jumlah2
+   
+        elif pil == 2 :
+                Kurang1 = input("Nilai 1 = ")
+                Kurang2 = input("Nilai 2 = ")
+                print Kurang1, " - ", Kurang2," = ",Kurang1-Kurang2
+
+        elif pil == 3 :
+                Kali1 = input("Nilai 1 = ")
+                Kali2 = input("Nilai 2 = ")
+                print Kali1, " * ", Kali2," = ",Kali1*Kali2
+
+
+        elif pil == 4 :
+                Bagi1 = input("Nilai 1 = ")
+                Bagi2 = input("Nilai 2 = ")
+                print Bagi1, " : ", Bagi2," = ",Bagi1/Bagi2
+
+        else :
+                quit()
